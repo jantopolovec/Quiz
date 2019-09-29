@@ -1,0 +1,72 @@
+/*button*/
+.button {
+  background-color: yellow;
+  border: 1px solid black;
+  color: black;
+  padding: 20px 100px;
+  text-align: center;
+  font-size: 20px;
+    font-weight: bold;
+    cursor: default !important;
+        
+        border-radius: 5px;
+  transition: 0.5s;
+  margin-bottom: 5px;
+  width: 350px;
+ 
+  
+  
+}
+
+.button:hover {
+  background-color: rgba(255,255,0,0.2);
+  color: black;
+  border: 1px solid black;
+  border-radius: 25px;
+  cursor: default;
+}
+.button:focus
+{
+  outline: none;
+}
+
+
+
+.ravno
+{
+  margin-bottom: 15px;
+}
+
+/*button*/
+.button2 {
+  background-color: yellow;
+  border: 1px solid black;
+  color: black;
+  padding: 10px 100px;
+  text-align: center;
+  font-size: 20px;
+    font-weight: bold;
+    cursor: default !important;
+        
+        border-radius: 5px;
+  transition: 0.5s;
+  margin-bottom: 5px;
+
+ 
+  
+  
+}
+
+.button2:hover {
+  background-color: rgba(255,255,0,0.2);
+  color: black;
+  border: 1px solid black;
+  border-radius: 25px;
+  cursor: default;
+}
+
+.button2:focus
+{
+  outline: none;
+}
+
