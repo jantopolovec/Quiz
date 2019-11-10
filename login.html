@@ -21,11 +21,19 @@
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-import swal from 'sweetalert';
+
 
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
 
+  
+  <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+<script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
 </head>
 <body id="page-top">
 
@@ -49,53 +57,25 @@ import swal from 'sweetalert';
             </div>
           </div>
         </header><br><br>
-        <p id="demo"></p>
-        <form name="myfrom" id="form_id" method="post"   style="text-align:center">
+       
+     
                 <div class="ravno">
-                    <input  type="text" id="username" name="username" placeholder="Uporabniško ime"/><br>
+                    <input   type="text" id="username" name="username" placeholder="Uporabniško ime"/><br>
                 </div>
                 <div class="ravno">
                     <input type="password" id="password" name="password" placeholder="Geslo" />
                 </div> 
                 <div   style="text-align:center" >
                                         <input  type="submit" id="submit"  class="button2" value="Prijava"  onclick="validate()" name="sub">
-                                    </div></form>
+                                    </div>
+							
                 <br><div id="reg" style="text-align:center">Še nimate računa? <a href="reg.html"> Ustvarite račun</a>
                 </div>
                                     <br>
            
-            <p id="demo"></p>
-			<script> 
-			 function validate()
-			{
-        
-        var username = document.getElementById("username").value;
-        var password = document.getElementById("password").value;
-				if ((username == "jan") && (password == "jan"))
-				{
-         location.href="index.html";
-         alert ("Login was successful");
-        
-        
-          return false;
            
-				}
-				else
-				{
-				  alert ("Login was unsuccessful, please check your username and password");
-            return false;
-				}
-
-
-			
-			}
-      
-        
-          
-			</script>
-			
 			
 
-            
+         <script src="chech.js"></script>     
 </body>
 </html>

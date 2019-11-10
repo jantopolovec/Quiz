@@ -23,10 +23,8 @@
 
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
-  <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
 </head>
-<body id="page-top">
+<body id="page-top" onload="action()">
 
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
@@ -59,33 +57,20 @@
         <!-- Header -->
         <header class="masthead">
           <div class="container">
-            <div class="intro-text">
-              <div class="intro-lead-in">Registracija</div>
-              
-          
-            </div>
-          </div>
+            
         </header><br><br>
+      <div id="odgovori" >
+          <div id="demo" >
+         
+        </div><br><br>
        
-                <div class="ravno">
-                    <input  type="text"  id="username" name="username" placeholder="Uporabniško ime" required="required"/><br>
-                </div>
-                <div class="ravno">
-                        <input  type="text"  id="email" name="email" placeholder="Email" required="required"/><br>
-                    </div>
-                <div class="ravno">
-                    <input type="password" id="password" name="password" placeholder="Geslo" required="required"/>
-                </div> 
-                <div class="ravno">
-                        <input type="password" id="password2" name="password2" placeholder="Ponovno geslo" required="required"/>
-                    </div>
-                <div   style="text-align:center" >
-                                        <input type="submit"  onclick="validate()" class="button2" value="Registracija" name="sub">
-                                    </div>
-                <br>
-            
-            
-
-                <script src="reg.js"></script>    
+        <button class="b1" id="ena" onclick="ena();"> </button>
+        <button class="b1" id="dva" onclick="dva();"> </button><br>
+        <button class="b1" id="tri" onclick="tri();"> </button>
+        <button class="b1" id="stiri" onclick="stiri();"> </button>
+        </div>
+        <p id="demo"></p>
+        <script src="kviz.js"></script>   
+		
 </body>
 </html>
