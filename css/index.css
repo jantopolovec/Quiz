@@ -155,3 +155,15 @@ margin-top:200px;
 {
 font-size: 50px;
 }
+
+
+.table
+{
+  width: 80%!important;
+
+}
+
+.pointer
+{
+  cursor: pointer;
+}
